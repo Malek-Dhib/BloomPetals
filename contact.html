@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact - Bloom Petals</title>
+</head>
+<body>
+    <h1>Contactez-nous</h1>
+    
+    <form action="traitement.php" method="post">
+        <label for="civilite">Civilité :</label>
+        <select id="civilite" name="civilite">
+            <option value="Monsieur">Monsieur</option>
+            <option value="Madame">Madame</option>
+        </select>
+        <br>
+
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" required>
+        <br>
+
+        <label for="prenom">Prénom :</label>
+        <input type="text" id="prenom" name="prenom" required>
+        <br>
+
+        <label for="adresse">Adresse Postale :</label>
+        <textarea id="adresse" name="adresse" rows="4" cols="50" required></textarea>
+        <br>
+
+        <input type="checkbox" id="confidentialite" name="confidentialite" required>
+        <label for="confidentialite">J'accepte les politiques de confidentialité de l'entreprise</label>
+        <br>
+
+        <input type="submit" value="Envoyer">
+    </form>
+</body>
+</html>

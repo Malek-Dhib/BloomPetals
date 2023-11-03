@@ -1,0 +1,135 @@
+/* Style général de la page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(fleur.png) ;
+    background-size: cover;  /* Ajuste la taille de l'image pour remplir l'ensemble de l'arrière-plan */
+    background-repeat: no-repeat;  /* Empêche la répétition de l'image */
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    text-align: right;
+    background-color: #fddada;
+    padding: 10px;
+    
+}
+
+nav .search-bar {
+    margin-left: auto; /* Déplace la barre de recherche à droite */
+}
+
+/* Style pour chaque lien */
+nav a {
+    margin-right: 20px; /* Espace entre les liens (ajustez selon vos préférences) */
+    text-decoration: none; /* Supprimer la décoration des liens */
+    color: #000000; /* Couleur du texte (ajustez selon vos préférences) */
+}
+
+/* Style du titre de l'entreprise */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Pacifico', cursive; /* Utilisation de la police "Pacifico" */
+    color: rgb(74, 74, 227); /* Couleur bleue pour le texte du titre */
+    font-size: 50px; /* Ajustez la taille du texte selon vos préférences */
+}
+
+
+/* Style du paragraphe de description de l'entreprise */
+.center-text {
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 18px; /* Ajustez la taille du texte selon vos préférences */
+}
+
+.center-text2, h2 {
+    text-align: center;
+}
+
+.center-text2 {
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    width: 90%;
+    margin: 0 auto;
+    text-align: justify; /* Justifie le texte */
+    font-size: 18px; /* Ajustez la taille du texte selon vos préférences */
+}
+
+.center-text,
+.center-text2,
+.service {
+    margin: 70px;
+    background-color: #fde9e9; /* Ajoute un fond de couleur claire */
+    padding: 7px; /* Ajoute de l'espacement intérieur pour améliorer la lisibilité */
+    border-radius: 10px; /* Arrondi les coins de la section */
+    box-shadow: 2px 2px 5px #555252; /* Ajoute une ombre à la section */
+}
+
+
+.center-text,
+.center-text2 {
+    border-bottom: 1px solid #ccc; /* Ajoute une ligne de séparation en bas du texte */
+}
+
+.service h3 {
+    font-family: 'Archivo Black', cursive; /* Utilisation de la police "Archivo Black" */
+    font-weight: bold;
+}
+
+.service p {
+    font-family: 'Kalam', cursive; /* Utilisation de la police "Kalam" */
+    font-size: 14px;
+}
+/* Style des images horizontales (4 en haut, 4 en bas) */
+img {
+    width: 200px;
+    height: 145px;
+    display: inline-block;
+    margin: 10px 40px; /* Ajustez l'espacement horizontal selon vos préférences */
+}
+
+.separator {
+    border-top: 1px solid #080808; /* Épaisseur et couleur de la ligne */
+    margin: 20px 0; /* Espacement au-dessus et en dessous de la ligne (ajustez selon vos préférences) */
+    border: none; /* Supprime la bordure par défaut de la ligne horizontale */
+    border-top: 1px solid #ccc; /* Épaisseur et couleur de la ligne */
+    margin-left: 40px; /* Marge à gauche de la ligne */
+    margin-right: 40px; /* Marge à droite de la ligne */
+}
+/* Style des services proposés */
+
+
+.service {
+    text-align: center;
+    display: inline-block;
+    width: 40%; /* Pour les mettre côte à côte */
+    vertical-align: top; /* Pour les aligner en haut */
+    margin: 10px 20px; /* Ajustez l'espacement horizontal selon vos préférences */
+}
+
+/* Style des titres de services */
+.service h3 {
+    font-weight: bold;
+}
+
+/* Style des descriptions de services */
+.service p {
+    font-size: 14px;
+}
+
+/* Pour la barre de recherche, vous pouvez ajouter des styles personnalisés en fonction de vos besoins */
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section img {
+    margin-right: 100px; /* Espace entre les images (ajustez selon vos préférences) */
+}

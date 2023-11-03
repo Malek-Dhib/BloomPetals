@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(fleur.png) ;
+    background-size: cover;  /* Ajuste la taille de l'image pour remplir l'ensemble de l'arrière-plan */
+    background-repeat: no-repeat;  /* Empêche la répétition de l'image */
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Pacifico', cursive; /* Utilisation de la police "Pacifico" */
+    color: rgb(7, 7, 7); /* Couleur bleue pour le texte du titre */
+    font-size: 50px; /* Ajustez la taille du texte selon vos préférences */
+}
+
+.center-text {
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 18px; /* Ajustez la taille du texte selon vos préférences */
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    text-align: right;
+    background-color: #fddada;
+    padding: 10px;
+    
+}
+
+nav .search-bar {
+    margin-left: auto; /* Déplace la barre de recherche à droite */
+}
+
+/* Style pour chaque lien */
+nav a {
+    margin-right: 20px; /* Espace entre les liens (ajustez selon vos préférences) */
+    text-decoration: none; /* Supprimer la décoration des liens */
+    color: #000000; /* Couleur du texte (ajustez selon vos préférences) */
+}
+
+
+section img {
+    display: inline-block;
+    margin: 10px;
+    margin-right: 20px; /* Espace entre les images (ajustez selon vos préférences) */
+}
+
+.team-member {
+    text-align: center;
+    display: inline-block;
+    width: 30%; /* Ajustez la largeur en fonction du nombre de membres côte à côte */
+    margin: 0 10px; /* Espacement entre chaque membre */
+    vertical-align: baseline; /* Aligner les éléments en haut */
+}
+
+.team-member img{
+    object-fit: contain;
+    height: 200px;
+}
+
+.team-member h2 {
+    font-family: 'Archivo Black', cursive; /* Utilisation de la police "Archivo Black" */
+    font-weight: bold;
+}
+
+.team-member p {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 5px; /* Espacement entre l'image et la description (ajustez selon vos préférences) */
+    margin: 0 10px; /* Espacement entre chaque membre de l'équipe */
+    font-family: 'Kalam', cursive; /* Applique la police "Kalam" */
+    font-size: 14px; /* Ajustez la taille du texte selon vos préférences */
+    box-sizing: border-box; /* Inclure les marges dans la largeur définie */
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin: 20px 0; /* Espacement au-dessus et en dessous de chaque section */
+}
+
+/* Style pour le séparateur */
+.separator {
+    border-top: 1px solid #080808; /* Épaisseur et couleur de la ligne */
+    margin: 20px 0; /* Espacement au-dessus et en dessous du séparateur (ajustez selon vos préférences) */
+    border: none; /* Supprime la bordure par défaut de la ligne horizontale */
+    border-top: 1px solid #ccc; /* Épaisseur et couleur de la ligne */
+    margin-left: 40px; /* Marge à gauche du séparateur */
+    margin-right: 40px; /* Marge à droite du séparateur */
+}
+
+.visuals {
+    display: flex;
+    justify-content: space-between; /* Pour espacer les images horizontalement */
+}
+
+.visual {
+    flex-basis: calc(33.33% - 20px); /* Largeur des éléments avec un espace de 20px entre eux */
+    margin-right: 20px; /* Espace entre chaque paire d'image et de description */
+}
+
+.visual img {
+    width: 100%; /* Ajuste la largeur de l'image pour remplir la zone de contenu */
+}

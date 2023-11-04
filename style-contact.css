@@ -1,0 +1,13 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(fleur.png) ;
+    background-size: cover;  /* Ajuste la taille de l'image pour remplir l'ensemble de l'arrière-plan */
+    background-repeat: no-repeat;  /* Empêche la répétition de l'image */
+    margin: 70px;
+    background-color: #fde9e9; /* Ajoute un fond de couleur claire */
+    padding: 7px; /* Ajoute de l'espacement intérieur pour améliorer la lisibilité */
+    border-radius: 10px; /* Arrondi les coins de la section */
+    box-shadow: 2px 2px 5px #000000; /* Ajoute une ombre à la section */
+}

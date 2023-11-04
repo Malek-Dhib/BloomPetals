@@ -1,0 +1,42 @@
+/* Style général de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(fleur.png) ;
+    background-size: cover;  /* Ajuste la taille de l'image pour remplir l'ensemble de l'arrière-plan */
+    background-repeat: no-repeat;  /* Empêche la répétition de l'image */
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Style de la mosaïque */
+.mosaique {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colonnes égales */
+    gap: 10px; /* Espacement entre les éléments */
+    padding: 10px;
+}
+
+/* Style de chaque réalisation */
+.realisation {
+    background-color: #f9d4d4; /* Fond blanc */
+    border: 1px solid #ccc; /* Bordure autour de chaque réalisation */
+    text-align: center;
+    padding: 10px;
+}
+
+.realisation img {
+    width: 200px; /* Spécifiez la largeur souhaitée (par exemple, 200 pixels) */
+    height: 150px; /* Spécifiez la hauteur souhaitée (par exemple, 150 pixels) */
+}
+
+.realisation p {
+    font-size: 14px;
+    margin: 10px 0;
+    font-size: 20px; /* Augmentez la taille du texte à 16 pixels (vous pouvez ajuster la taille selon vos préférences) */
+}
+
+@media (max-width: 768px) {
+    /* Styles spécifiques pour les petits écrans */
+}

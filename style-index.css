@@ -133,3 +133,7 @@ section {
 section img {
     margin-right: 100px; /* Espace entre les images (ajustez selon vos préférences) */
 }
+
+@media (max-width: 768px) {
+    /* Styles spécifiques pour les petits écrans */
+}
